@@ -1,0 +1,235 @@
+/*MY PAGE*/
+
+body {
+    background: black;
+}
+
+#page {
+    background: black;
+}
+
+/*BANNER*/
+
+.banner {
+
+}
+
+.banner img {
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+.banner a {
+    display: block;
+}
+
+/*MENU*/
+
+.menu {
+    margin: 10px;
+}
+
+.menu ul {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.menu ul li {
+    display: inline-block;
+    padding: 10px;
+}
+
+.menu ul li a {
+    font-family: 'Orbitron', sans-serif;
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li .current,
+nav ul li a:hover {
+    color: red;
+}
+
+.carousel-page {
+	width:100%;
+	height:100%;
+	background-color:black;
+	color:white;
+}
+
+.item img {
+    border-radius: 15px;
+}
+
+/*MAIN CONTENT*/
+
+.audio {
+    visibility: hidden;
+}
+
+main > div {
+    clear: both;
+}
+
+h1 {
+    font-family: 'Orbitron', sans-serif;
+    color: white;
+    padding: 10px;
+}
+
+h2 {
+    font-family: 'Orbitron', sans-serif;
+    color: white;
+    padding: 10px;
+}
+
+h3 {
+    font-family: 'Orbitron', sans-serif;
+    color: white;
+    padding: 10px;
+}
+
+.text {
+    padding: 10px;
+}
+
+.text p {
+    font-family: 'Orbitron', sans-serif;
+    color: white;
+    line-height: 25px;
+    text-align: justify;
+}
+
+.content li a {
+    font-family: 'Orbitron', sans-serif;
+}
+
+.content li a:hover {
+    color: red;
+}
+
+.allabout p {
+    font-family: 'Orbitron', sans-serif;
+    color: white;
+    line-height: 25px;
+    font-size: 14px;
+    text-align: justify;
+}
+
+.img figcaption {
+    font-family: 'Orbitron', sans-serif;
+    color: white;
+    line-height: 25px;
+    text-align: justify;
+    font-size: 12px;
+}
+
+.img img {
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px; height: 0; overflow: hidden;
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.downloads {
+    font-family: 'Orbitron', sans-serif;
+}
+
+.downloads a:hover {
+    color: red;
+}
+
+/*FOOTER*/
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.logo a img {
+    /*filtre CSS*/
+    filter: grayscale(100%);
+    opacity: 0.5;
+    /*transistion CSS*/
+    transition: opacity .25s ease-in-out;
+    -moz-transition: opacity .25s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out;
+    -o-transition: opacity .25s ease-in-out;
+    -ms-transition: opacity .25s ease-in-out;
+}
+
+.logo a img:hover {
+    filter: unset;
+    opacity: 1;
+}
+
+.contact {
+
+}
+
+.contact h3 {
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+    color: white;
+}
+
+.contact address {
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+    color: white;
+}
+
+.contact address a:hover {
+    color: red;
+}
+
+.community i {
+    color: white;
+    font-size: 30px;
+    margin: 5px;
+    margin-bottom: 30px;
+}
+
+.community i:hover {
+    color: red;
+}
+/*=====================================================
+=            Bootstrap Media Queries                  =
+=====================================================*/
+@media only screen and (max-width : 1200px) {
+
+}
+
+@media only screen and (max-width : 979px) {
+
+}
+
+@media only screen and (max-width : 767px) {
+
+}
+
+@media only screen and (max-width : 480px) {
+
+}
+
+@media only screen and (max-width : 320px) {
+
+}
