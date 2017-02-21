@@ -67,7 +67,7 @@
                         <!-- Page 3 -->
                         <div class="item">
                             <div class="carousel-page">
-                                <img src="http://cdn.slashcomment.com/wp-content/uploads/2016/04/slashcomment-retro-review-doom-01.png" class="img-responsive img-rounded" style="margin:0px auto;max-height:100%;"  />
+                                <img src="http://www.cubed3.com/media/2016/May/doomii7.jpg" class="img-responsive img-rounded" style="margin:0px auto;"  />
                             </div>
                         </div>
                     </div>
@@ -131,18 +131,6 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
         <!--  KONAMI CODE  -->
-        <script>
-            if ( window.addEventListener ) {
-                var kkeys = [], konami = "38,38,40,40,37,39,37,39,66,65";
-                    window.addEventListener("keydown", function(e){
-                        kkeys.push( e.keyCode );
-                        if ( kkeys.toString().indexOf( konami ) >= 0 ) {
-                            alert('Welcome to hell !');
-                            var vid = document.getElementById("myaudio");
-                            vid.play();
-                        }
-                    }, true);
-                }
-        </script>
+        <script src="assets/js/konamiCode.js" crossorigin="anonymous"></script>
     </body>
 </html>

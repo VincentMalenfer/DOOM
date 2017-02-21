@@ -32,55 +32,8 @@
 
         <!--   Fonts Awesome  -->
         <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-
-        <!--  Return to Header  -->
-        <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
-        <style>
-            .cRetour {
-                border-radius:3px;
-                padding:10px;
-                font-size:25px;
-                text-align:center;
-                color:#fff;
-                background:rgba(0, 0, 0, 0.25);
-                z-index:99999;
-                transition:all ease-in 0.2s;
-                position: fixed;
-                cursor: pointer;
-                bottom: 1em;
-                right: 20px;
-                display: none;
-            }
-            .cRetour:before{ content: "\25b2"; }
-            .cRetour:hover{
-                background:rgba(0, 0, 0, 1);
-                transition:all ease-in 0.2s;
-            }
-        </style>
     </head>
     <body>
-        <script>
-            jQuery(document).ready(function() {
-            var duration = 500;
-                jQuery(window).scroll(function() {
-                if (jQuery(this).scrollTop() > 100) {
-                    // Si un défillement de 100 pixels ou plus.
-                    // Ajoute le bouton
-                    jQuery('.cRetour').fadeIn(duration);
-                    } else {
-                        // Sinon enlève le bouton
-                        jQuery('.cRetour').fadeOut(duration);
-                        }
-                    });
-
-                    jQuery('.cRetour').click(function(event) {
-                        // Un clic provoque le retour en haut animé.
-                        event.preventDefault();
-                    jQuery('html, body').animate({scrollTop: 0}, duration);
-                    return false;
-                })
-            });
-        </script>
         <div class="cRetour"></div>
         <div class="page container">
             <header class="header">
@@ -315,21 +268,9 @@
         crossorigin="anonymous"></script>
 
         <!--    Bootstrap JS  -->
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <script src="assets/js/cRetour.js" crossorigin="anonymous"></script>
 
-        <!--  KONAMI CODE  -->
-        <script>
-            if ( window.addEventListener ) {
-                var kkeys = [], konami = "38,38,40,40,37,39,37,39,66,65";
-                    window.addEventListener("keydown", function(e){
-                        kkeys.push( e.keyCode );
-                        if ( kkeys.toString().indexOf( konami ) >= 0 ) {
-                            alert('Welcome to hell !');
-                            var vid = document.getElementById("myaudio");
-                            vid.play();
-                        }
-                    }, true);
-                }
-        </script>
+        <!--    Bootstrap JS  -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     </body>
 </html>
