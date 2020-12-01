@@ -1,5 +1,4 @@
 var konami = false;
-
 if ( window.addEventListener ) {
   if (!konami) {
     // séquence d'input du KONAMI code
