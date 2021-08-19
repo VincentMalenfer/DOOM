@@ -160,6 +160,7 @@ footer {
 }
 
 .logo a img {
+    max-width: 50%;
     /*filtre CSS*/
     filter: grayscale(100%);
     opacity: 0.5;
